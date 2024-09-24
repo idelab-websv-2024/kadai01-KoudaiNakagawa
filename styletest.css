@@ -13,3 +13,23 @@ div#test01 {
 .important {
   color: #a00;
 }
+
+.last3 {
+  font-weight: bold;
+}
+
+.name {
+  text-align:center;
+}
+
+table, tr, th, td{
+  border:1px solid #333;
+}
+
+tr:nth-child(even) {
+	background: #add8e6;
+}
+
+tr:nth-child(odd) {
+	background: #e0ffff;
+}
